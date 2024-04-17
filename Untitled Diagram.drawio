@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T12:42:12.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0jBmeob_yynuEEHlrDF8" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T12:54:22.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="N9y6GPtSNSPB_9gZzd5Y" version="24.2.5" type="github">
   <diagram name="Page-1" id="VAMx8NaaD_yWFlFD9U2z">
     <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-10" value="hotel Sigh-in/login/password-reset/ info-update controllers" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-10" value="hotel Sign-in/log-in/password-reset/hotel info-update controllers" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="20" y="250" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-12">
@@ -225,8 +225,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-69" value="Hotel Booking API Component&lt;div&gt;&amp;nbsp;digram&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="3" width="190" height="40" as="geometry" />
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-69" value="Hotel Booking API container Component&lt;div&gt;&amp;nbsp;digram&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
