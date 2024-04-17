@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T12:30:35.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4LpJZ7gkdqrDKvfJQOWT" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T12:40:39.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="D8HxZVhYLJgyFfzrX78S" version="24.2.5" type="github">
   <diagram name="Page-1" id="VAMx8NaaD_yWFlFD9U2z">
     <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="170" width="980" height="470" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-6" value="Hotel DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -16,26 +16,37 @@
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-8" value="Email System" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="330" y="670" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-58">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-58" target="_ROeMKXTA7b0pfcff-Nk-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="376" as="sourcePoint" />
             <mxPoint x="370" y="676" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="320" />
-              <mxPoint x="140" y="576" />
-              <mxPoint x="326" y="576" />
-              <mxPoint x="326" y="630" />
-              <mxPoint x="370" y="630" />
+              <mxPoint x="260" y="570" />
+              <mxPoint x="352" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="514" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="390" />
+              <mxPoint x="120" y="430" />
+              <mxPoint x="514" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-10" value="hotel Sigh-in/login/password-reset/ info-update controllers" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="280" width="100" height="100" as="geometry" />
+          <mxGeometry x="20" y="250" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="_ROeMKXTA7b0pfcff-Nk-13">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="742.47" as="sourcePoint" />
-            <mxPoint x="676" y="754.97" as="targetPoint" />
+            <mxPoint x="690" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="642" y="750" />
+              <mxPoint x="642" y="751" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-12" value="kafka&lt;br&gt;(with real-time data)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -50,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-13" value="Elastic Search" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="695" width="110" height="50" as="geometry" />
+          <mxGeometry x="700" y="695" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-14" target="_ROeMKXTA7b0pfcff-Nk-7">
           <mxGeometry relative="1" as="geometry">
@@ -62,13 +73,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-14">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="925" y="390" as="sourcePoint" />
-            <mxPoint x="400" y="694" as="targetPoint" />
+            <mxPoint x="946" y="376" as="sourcePoint" />
+            <mxPoint x="420" y="672.04" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="925" y="594" />
-              <mxPoint x="400" y="594" />
+              <mxPoint x="946" y="594" />
+              <mxPoint x="421" y="594" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -79,10 +90,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-23" target="_ROeMKXTA7b0pfcff-Nk-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="200" />
+              <mxPoint x="80" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-23" value="Customer Mobile Web APP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="20" width="90" height="90" as="geometry" />
+          <mxGeometry x="90" y="20" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-26" target="_ROeMKXTA7b0pfcff-Nk-14">
           <mxGeometry relative="1" as="geometry" />
@@ -110,8 +126,13 @@
             <mxPoint x="786.1199999999999" y="695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-13" target="_ROeMKXTA7b0pfcff-Nk-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="596" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0.993;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="_ROeMKXTA7b0pfcff-Nk-47" source="_ROeMKXTA7b0pfcff-Nk-13">
           <mxGeometry relative="1" as="geometry">
@@ -131,18 +152,6 @@
               <mxPoint x="830" y="140" />
               <mxPoint x="830" y="190" />
               <mxPoint x="590" y="190" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-47" target="_ROeMKXTA7b0pfcff-Nk-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="410" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="550" y="379" />
-              <mxPoint x="550" y="520" />
-              <mxPoint x="380" y="520" />
-              <mxPoint x="380" y="660" />
-              <mxPoint x="420" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -170,16 +179,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-50" target="_ROeMKXTA7b0pfcff-Nk-53">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.32;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_ROeMKXTA7b0pfcff-Nk-53">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422" y="320" as="sourcePoint" />
+            <mxPoint x="235" y="626" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="422" y="510" />
-              <mxPoint x="240" y="510" />
+              <mxPoint x="422" y="476" />
+              <mxPoint x="242" y="476" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-50" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="260" width="104" height="90" as="geometry" />
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-50" value="Payment Contoller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.5" y="264" width="104" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-53" value="3rd Party Payment Provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="660" width="100" height="170" as="geometry" />
@@ -203,18 +214,29 @@
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.657;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-26" target="_ROeMKXTA7b0pfcff-Nk-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_ROeMKXTA7b0pfcff-Nk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-58">
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_ROeMKXTA7b0pfcff-Nk-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="400" as="sourcePoint" />
-            <mxPoint x="359.96000000000004" y="680.96" as="targetPoint" />
+            <mxPoint x="370" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="277" y="430" />
-              <mxPoint x="360" y="430" />
+              <mxPoint x="277" y="390" />
+              <mxPoint x="277" y="540" />
+              <mxPoint x="370" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_ROeMKXTA7b0pfcff-Nk-69" value="Hotel Booking API Component&lt;div&gt;&amp;nbsp;digram&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="3" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ROeMKXTA7b0pfcff-Nk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546" y="380" as="sourcePoint" />
+            <mxPoint x="390.03999999999996" y="671.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="546" y="531" />
+              <mxPoint x="390" y="531" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
